@@ -1,12 +1,12 @@
 # Current Time Javascript Action
 
-This action sets the current ISO8601 time to the `time` output. Useful for setting build times in subsequent steps, or keeping the same recorded time for the entire workflow.
+This action sets the current unix timestamp to the `time` output. Useful for setting build times in subsequent steps, or keeping the same recorded time for the entire workflow.
 
 ## Outputs
 
 ### `time`
 
-The UTC time when this step was run.
+The unix timestamp when this step was run.
 
 ## Example usage
 
